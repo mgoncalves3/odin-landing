@@ -48,7 +48,7 @@ li a {
   flex-direction: row;
   justify-content: space-between;
   margin: 90px 190px;
-  width: 100%;
+  gap: 50px;
 }
 
 .hero-main {
@@ -56,6 +56,7 @@ li a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  flex: 1;
 }
 
 .hero img {
@@ -63,9 +64,10 @@ li a {
   flex: 1;
 }
 
-h1 {
+.hero-main h1 {
   font-size: 48px;
   font-weight: 900;
+  margin: 0;
 }
 
 .hero p {
@@ -94,12 +96,14 @@ button {
   color: #e5e7eb;
   font-weight: 800;
   font-size: 14px;
+  margin-top: 16px;
 }
 
 .main-info {
   display: flex;
   justify-content: center;
   align-content: center;
+  padding-bottom: 80px;
 }
 
 figure {
@@ -115,10 +119,30 @@ figure img {
   object-fit: cover;
   border-radius: 20px;
   border: solid 5px #3882f6;
+  width: 150px;
+  height: 150px;
 }
 
 figcaption {
   text-align: center;
-  color: #e5e7eb;
+  color: #1f2937;
   font-size: 18px;
+  margin-top: 8px;
+}
+
+.testimonials {
+  padding: 80px 200px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.person-quoted {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: end;
 }
