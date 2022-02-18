@@ -131,7 +131,7 @@ figcaption {
 }
 
 .testimonials {
-  padding: 80px 200px;
+  padding: 80px 270px;
   background-color: #e5e7eb;
 }
 
@@ -145,4 +145,38 @@ figcaption {
   font-size: 18px;
   font-weight: bold;
   text-align: end;
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: #3882f6;
+  padding: 50px 170px;
+  justify-content: space-between;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.blue-section {
+  font-size: 18px;
+  color: white;
+}
+
+.call-to-action button {
+  border: solid 2px white;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 16px;
+  color: white;
+  font-weight: 300;
+  word-spacing: 10px;
 }
